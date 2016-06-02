@@ -1,0 +1,19 @@
+/*........................Import...................*/
+@import "Estilos/variables";
+@import "Estilos/header";
+@import "Estilos/section";
+@import "Estilos/footer";
+@import "Estilos/medias";
+/*...................Fuente.......................*/
+
+@include fontFace('Bevas','../font/bebas___-webfont');
+@include fontFace('Helvetica Neue','../font/HelveticaNeue');
+
+body, h2{
+	font-family:'Bevas' !important;
+}
+p{
+	font-family:'Helvetica Neue' !important;
+}
+
+

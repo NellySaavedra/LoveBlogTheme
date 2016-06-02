@@ -1,0 +1,165 @@
+/*........................Import...................*/
+/*------------menu.responsive...............*/
+.navbar-inverse {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+.navbar-inverse .navbar-nav > .active > a {
+  color: #E84409;
+  background-color: #FFFFFF; }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #FFFFFF;
+  background-color: rgba(255, 193, 7, 0.78); }
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: #E84409; }
+
+.navbar-inverse .navbar-toggle {
+  border-color: #FFFFFF;
+  background-color: #FFC107; }
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: rgba(255, 87, 34, 0.73); }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #FFC107; }
+
+.LiMenu {
+  margin-top: 10px; }
+
+.OrangeRgba {
+  color: rgba(255, 87, 34, 0.6); }
+
+body .BackOrange {
+  background-color: #E84409;
+  color: #FFFFFF;
+  margin-top: 5%;
+  padding: 10px 3%; }
+body .MBottom {
+  margin-top: 3%; }
+body h2, body h6 {
+  color: #E84409; }
+body .TextWhite {
+  color: #FFFFFF !important; }
+body .DivImg, body .ImgAjuste {
+  width: 100%;
+  height: 60%; }
+body .TextOrange {
+  color: #E84409; }
+body blockquote {
+  margin-left: 3%;
+  border-left: 8px solid #E84409; }
+
+.CajaGris {
+  border: 1px solid #BCB7C9;
+  padding: 3%; }
+
+.CajaGris:hover {
+  padding: 0px;
+  border: 4px solid rgba(255, 193, 7, 0.78); }
+
+.MIco {
+  padding-top: 70%; }
+
+.Barra {
+  background-image: url(../images/post_border_bg.png);
+  background-repeat: repeat;
+  background-position: center;
+  margin: 5% 0px; }
+
+.CajaTextT {
+  background-color: white;
+  padding: 3% 3% 3% 0px; }
+
+iframe {
+  height: 400px !important; }
+
+ul {
+  padding-left: 0px !important; }
+
+.LiInline {
+  display: inline-block; }
+
+li {
+  list-style: none; }
+
+.SizeH2 {
+  font-size: 22px; }
+
+/*.............Carrusel.De.Imagenes................*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto; }
+
+/*............fORMULARIO..........*/
+.AMax {
+  width: 100%;
+  border: 1px solid #E84409;
+  padding: 2%; }
+
+input {
+  width: 80%;
+  border: 1px solid #E84409;
+  padding: 2%;
+  color: #E84409; }
+
+textarea {
+  color: #E84409; }
+
+/*Boton*/
+.DesingButton {
+  -webkit-border: 1px solid #E84409;
+  -moz-border: 1px solid #E84409;
+  -ms-border: 1px solid #E84409;
+  -o-border: 1px solid #E84409;
+  border: 1px solid #E84409;
+  padding: 3%;
+  background-color: #E84409;
+  color: #FFFFFF; }
+
+.MB123 {
+  margin: 3px;
+  padding: 1% 2%; }
+
+/*Footer*/
+.DesingButton {
+  -webkit-background-color: #E84409 #FFFFFF 3%;
+  -moz-background-color: #E84409 #FFFFFF 3%;
+  -ms-background-color: #E84409 #FFFFFF 3%;
+  -o-background-color: #E84409 #FFFFFF 3%;
+  border: #E84409 #FFFFFF 3%;
+  padding: #E84409;
+  background-color: #E84409;
+  color: #FFFFFF; }
+
+/*..........Fuente....................*/
+@font-face {
+  font-family: "MybFont";
+  src: url("font/bebas___-webfont.eot");
+  src: url("font/bebas___-webfont.eot?#iefix") format("embedded-opentype"), url("font/bebas___-webfont.woff") format("woff"), url("font/bebas___-webfont.ttf") format("truetype"), url("font/bebas___-webfont.svg#MybFont") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+/*------------*/
+/*...................Fuente.......................*/
+@font-face {
+  font-family: "Bevas";
+  src: url("../font/bebas___-webfont.eot");
+  src: url("../font/bebas___-webfont.eot?#iefix") format("embedded-opentype"), url("../font/bebas___-webfont.woff") format("woff"), url("../font/bebas___-webfont.ttf") format("truetype"), url("../font/bebas___-webfont.svg#Bevas") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../font/HelveticaNeue.eot");
+  src: url("../font/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNeue.woff") format("woff"), url("../font/HelveticaNeue.ttf") format("truetype"), url("../font/HelveticaNeue.svg#Helvetica Neue") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+body, h2 {
+  font-family: 'Bevas' !important; }
+
+p {
+  font-family: 'Helvetica Neue' !important; }
+
+/*# sourceMappingURL=main.css.map */

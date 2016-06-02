@@ -1,0 +1,48 @@
+/*Boton*/
+@mixin border-btn($radius){
+	-webkit-border: $radius;
+	-moz-border: $radius;
+	-ms-border: $radius;
+	-o-border: $radius;
+	border: $radius;
+	padding: $Tres;
+	background-color: $Orange;
+	color: $White;
+}
+.DesingButton{
+    @include border-btn(1px solid $Orange);
+}
+.MB123 {
+	margin: 3px;
+	padding: 1% 2%;
+}
+/*Footer*/
+@mixin backgroudFooter($BFooter){
+	-webkit-background-color: $BFooter;
+	-moz-background-color: $BFooter;
+	-ms-background-color: $BFooter;
+	-o-background-color: $BFooter;
+	border: $BFooter;
+	padding: $Orange;
+	background-color: $Orange;
+	color: $White;
+}
+.DesingButton{
+    @include backgroudFooter(#E84409 #FFFFFF 3%);
+}
+/*..........Fuente....................*/
+@mixin fontFace($family,$src,$style: normal,$weight: normal) {
+    @font-face {
+        font-family: $family;
+        src: url('#{$src}.eot'); // IE9 compat
+        src: url('#{$src}.eot?#iefix') format('embedded-opentype'), // IE8 and below
+            url('#{$src}.woff') format('woff'), // standards
+            url('#{$src}.ttf') format('truetype'), // Safari, Android, iOS
+            url('#{$src}.svg##{$family}') format('svg'); // legacy iOS
+
+        font-style: $style;
+        font-weight: $weight;
+    }
+}
+@include fontFace('MybFont','font/bebas___-webfont');
+/*------------*/
